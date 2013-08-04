@@ -1,0 +1,7 @@
+markdown: redcarpet
+redcarpet:
+  extensions: [smart, autolink]
+pygments: true
+permanlink: /:title
+name: Lumberyard
+url: http://lumberyardhq.com
