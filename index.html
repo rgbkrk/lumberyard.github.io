@@ -68,16 +68,26 @@
         <div class="unit whole">
           <h2>Are you interested in trying the private beta?</h2>
           <p>We're looking for private beta testers to help us test.</p>
-          <p>
-            <input id="email" type="email" placeholder="Email...">
-          </p>
 
-          <p>
-            <input type="button" id="submit" class="btn btn-large btn-success" value="Request an invite!">
-          </p>
+          <form id="request-invite">
+            <p id="notice"></p>
+
+            <p>
+              <input id="email" type="email" placeholder="Email..." required>
+            </p>
+
+            <p>
+              <input type="submit"
+                     id="submit"
+                     class="btn btn-large btn-success"
+                     value="Request an invite!">
+            </p>
+          </form>
         </div>
       </div>
     </section>
 
+    <script src="javascripts/jquery.js"></script>
+    <script src="javascripts/app.js"></script>
   </body>
 </html>
